@@ -1,0 +1,7 @@
+version: '2'
+services:
+  restful:
+    build:
+      context: ./
+    ports:
+      - "8088:8088"
