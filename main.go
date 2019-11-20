@@ -1,14 +1,14 @@
-package restful
+package AccessLevel
 
 import (
 	"fmt"
 	"net/http"
 
-	"wwwin-github.cisco.com/DevNet/restful/log"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/log"
 
-	"wwwin-github.cisco.com/DevNet/restful/config"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/config"
 
-	"wwwin-github.cisco.com/DevNet/restful/routers"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/routers"
 )
 
 func main() {

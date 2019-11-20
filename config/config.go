@@ -10,11 +10,11 @@ import (
 var selection *ini.Section
 
 func init() {
-	cfg, err := ini.Load("config.ini")
+	cfg, err := ini.Load("config.conf")
 	if err != nil {
 		panic(err)
 	}
-	selection = cfg.Section(os.Getenv("RUNMODE"))
+	selection = cfg.Section("")
 	initConfig()
 }
 

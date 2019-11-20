@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/opentracing/opentracing-go"
-	"wwwin-github.cisco.com/DevNet/restful/log"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/log"
 )
 
 var (

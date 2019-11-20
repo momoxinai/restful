@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"wwwin-github.cisco.com/DevNet/restful/config"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/config"
 
 	log "github.com/sirupsen/logrus"
 )

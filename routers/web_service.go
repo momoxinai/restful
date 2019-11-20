@@ -3,7 +3,7 @@ package routers
 import (
 	"net/http"
 
-	"wwwin-github.cisco.com/DevNet/restful/config"
+	"wwwin-github.cisco.com/DevNet/AccessLevel/config"
 
 	"github.com/emicklei/go-restful"
 )
